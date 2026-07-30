@@ -51,44 +51,51 @@ st.divider()
 
 # ==========================================
 # 2. ข้อมูลโครงการทั้ง 6 งาน 
-# (ระบุแค่ชื่อไฟล์ไม่ต้องใส่นามสกุล เช่น 'knn', 'decision_tree')
+# (ระบุแค่ชื่อไฟล์ไม่ต้องใส่นามสกุล เช่น 'knn', 'decisiontree')
+# สามารถนำ URL GitHub มาวางแทนที่ '#' ได้ในภายหลัง
 # ==========================================
 projects = [
     {
         "title": "KNN with Heart",
         "description": "โมเดลวิเคราะห์และทำนายด้วยอัลกอริทึม K-Nearest Neighbors",
         "img_name": "knn",
-        "url": "https://knnwithheart-otgfaanixrepowwjwrfs2q.streamlit.app/"
+        "url": "https://knnwithheart-otgfaanixrepowwjwrfs2q.streamlit.app/",
+        "github": "https://github.com/your-username/your-repo-1"  # 👈 นำลิงก์ GitHub มาแก้ตรงนี้
     },
     {
         "title": "Decision Tree Classifier",
         "description": "การจำแนกข้อมูลและวิเคราะห์ต้นไม้ตัดสินใจ",
         "img_name": "decisiontree",
-        "url": "https://decisiontree-apjtjdnsphgyalfoiimpxy.streamlit.app/"
+        "url": "https://decisiontree-apjtjdnsphgyalfoiimpxy.streamlit.app/",
+        "github": "#"  # 👈 นำลิงก์ GitHub มาแก้ตรงนี้
     },
     {
         "title": "FlatFoot Filter App (SVM Classifier Version)",
         "description": "แอปพลิเคชันวิเคราะห์ข้อมูลและจำแนกประเภทโดยใช้ SVM Classifier ในหัวข้อโรคเท้าแบน",
         "img_name": "svm",
-        "url": "https://tvdwfxyqu48e4af2veepky.streamlit.app/"
+        "url": "https://tvdwfxyqu48e4af2veepky.streamlit.app/",
+        "github": "#"  # 👈 นำลิงก์ GitHub มาแก้ตรงนี้
     },
     {
         "title": "K-Means Clustering App",
         "description": "แอปพลิเคชันแสดงผลข้อมูลแบบ Clustering โดยใช้ K-Means Algorithm",
         "img_name": "kmean",
-        "url": "https://4u4kaz4xbjr9dfbqomvat8.streamlit.app/"
+        "url": "https://4u4kaz4xbjr9dfbqomvat8.streamlit.app/",
+        "github": "#"  # 👈 นำลิงก์ GitHub มาแก้ตรงนี้
     },
     {
         "title": "Regression Model",
         "description": "โมเดลการถดถอยพยากรณ์ข้อมูลเชิงปริมาณ",
         "img_name": "regression",
-        "url": "https://regression-dn8txr3qernzhhnczecmsa.streamlit.app/"
+        "url": "https://regression-dn8txr3qernzhhnczecmsa.streamlit.app/",
+        "github": "#"  # 👈 นำลิงก์ GitHub มาแก้ตรงนี้
     },
     {
         "title": "Random Forest Model",
         "description": "โมเดลจำแนกประเภทข้อมูลโดยใช้ Random Forest",
         "img_name": "randomforest",
-        "url": "https://randomforest-rdafgcqmqhclbqncxyjvg3.streamlit.app/"
+        "url": "https://randomforest-rdafgcqmqhclbqncxyjvg3.streamlit.app/",
+        "github": "#"  # 👈 นำลิงก์ GitHub มาแก้ตรงนี้
     }
 ]
 
@@ -115,5 +122,9 @@ for idx, project in enumerate(projects):
             st.subheader(project["title"])
             st.caption(project["description"])
             
-            # ปุ่มลิงก์เปิดเว็บ
-            st.link_button("เปิดใช้งานเว็บ ➔", project["url"], use_container_width=True)
+            # ปุ่มลิงก์เปิดเว็บ และ ลิงก์ GitHub แบบวางคู่กัน
+            btn_col1, btn_col2 = st.columns(2)
+            with btn_col1:
+                st.link_button("เปิดเว็บ ➔", project["url"], use_container_width=True)
+            with btn_col2:
+                st.link_button("💻 GitHub", project["github"], use_container_width=True)
