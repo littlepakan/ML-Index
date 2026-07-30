@@ -63,19 +63,19 @@ projects = [
     {
         "title": "Decision Tree Classifier",
         "description": "การจำแนกข้อมูลและวิเคราะห์ต้นไม้ตัดสินใจ",
-        "img_name": "decision_tree",
+        "img_name": "decisiontree",
         "url": "https://decisiontree-apjtjdnsphgyalfoiimpxy.streamlit.app/"
     },
     {
         "title": "FlatFoot Filter App (SVM Classifier Version)",
         "description": "แอปพลิเคชันวิเคราะห์ข้อมูลและจำแนกประเภทโดยใช้ SVM Classifier ในหัวข้อโรคเท้าแบน",
-        "img_name": "project3",
+        "img_name": "svm",
         "url": "https://tvdwfxyqu48e4af2veepky.streamlit.app/"
     },
     {
         "title": "K-Means Clustering App",
         "description": "แอปพลิเคชันแสดงผลข้อมูลแบบ Clustering โดยใช้ K-Means Algorithm",
-        "img_name": "project4",
+        "img_name": "kmean",
         "url": "https://4u4kaz4xbjr9dfbqomvat8.streamlit.app/"
     },
     {
@@ -87,7 +87,7 @@ projects = [
     {
         "title": "Random Forest Model",
         "description": "โมเดลจำแนกประเภทข้อมูลโดยใช้ Random Forest",
-        "img_name": "random_forest",
+        "img_name": "randomforest",
         "url": "https://randomforest-rdafgcqmqhclbqncxyjvg3.streamlit.app/"
     }
 ]
