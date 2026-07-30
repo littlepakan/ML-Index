@@ -30,7 +30,7 @@ def get_image_path(filename_without_ext):
 DEV_NAME = "นายปกานต์ วงษ์ท่าเรือ"           # แก้ไข ชื่อ-นามสกุล
 DEV_ROLE = "664245056 66/44" # แก้ไข ตำแหน่ง
 
-DEV_GITHUB = "https://github.com/your-username" # 👈 เพิ่มลิงก์ส่วนตัวตรงนี้ (นำ URL มาใส่)
+DEV_GITHUB = "https://canva.link/3mowokqdsn7wy72" # 👈 เพิ่มลิงก์ส่วนตัวตรงนี้ (นำ URL มาใส่)
 
 profile_img_path = get_image_path("profile")
 
@@ -49,7 +49,7 @@ with st.container(border=True):
         st.write(DEV_ROLE)
         
         # 👈 เพิ่มปุ่มลิงก์ส่วนตัวตรงนี้
-        st.link_button("🌐 โปรไฟล์ GitHub ผู้พัฒนา", DEV_GITHUB)
+        st.link_button("ผลลัพธ์หน้าเว็บ Streamlit ใน Canva (แทน PowerPoint)", DEV_GITHUB)
 
 # ==========================================
 # 2. ข้อมูลโครงการทั้ง 6 งาน 
