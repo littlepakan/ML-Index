@@ -60,7 +60,7 @@ projects = [
         "description": "โมเดลวิเคราะห์และทำนายด้วยอัลกอริทึม K-Nearest Neighbors",
         "img_name": "knn",
         "url": "https://knnwithheart-otgfaanixrepowwjwrfs2q.streamlit.app/",
-        "github": "https://github.com/your-username/your-repo-1"  # 👈 นำลิงก์ GitHub มาแก้ตรงนี้
+        "github": "https://github.com/littlepakan/knnwithheart/blob/main/KnnwithHeart.py"  # 👈 นำลิงก์ GitHub มาแก้ตรงนี้
     },
     {
         "title": "Decision Tree Classifier",
