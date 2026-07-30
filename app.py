@@ -13,7 +13,7 @@ st.set_page_config(
 # ==========================================
 DEV_NAME = "นายสมชาย ใจดี"           # แก้ไข ชื่อ-นามสกุล
 DEV_ROLE = "นักพัฒนา Machine Learning / Data Science" # แก้ไข ตำแหน่ง/คำอธิบาย
-DEV_IMAGE = "img/profile.png"          # ภาพโปรไฟล์ผู้พัฒนา (อยู่ในโฟลเดอร์ img/)
+DEV_IMAGE = "img/profile.jpg"          # ภาพโปรไฟล์ผู้พัฒนา (อยู่ในโฟลเดอร์ img/)
 
 # แสดงผลส่วนผู้พัฒนา
 with st.container(border=True):
@@ -24,7 +24,7 @@ with st.container(border=True):
         if os.path.exists(DEV_IMAGE):
             st.image(DEV_IMAGE, use_container_width=True)
         else:
-            st.info("📌 ใส่รูปโปรไฟล์ที่ `img/profile.png`")
+            st.info("📌 ใส่รูปโปรไฟล์ที่ `img/profile.jpg`")
             
     with col_dev_info:
         st.subheader("👨‍💻 ผู้พัฒนาผลงาน")
@@ -41,37 +41,37 @@ projects = [
     {
         "title": "KNN with Heart",
         "description": "โมเดลวิเคราะห์และทำนายด้วยอัลกอริทึม K-Nearest Neighbors",
-        "image": "img/knn.png",
+        "image": "img/knn.jpg",
         "url": "https://knnwithheart-otgfaanixrepowwjwrfs2q.streamlit.app/"
     },
     {
         "title": "Decision Tree App",
         "description": "การจำแนกข้อมูลและวิเคราะห์ต้นไม้ตัดสินใจ",
-        "image": "img/decision_tree.png",
+        "image": "img/decision_tree.jpg",
         "url": "https://decisiontree-apjtjdnsphgyalfoiimpxy.streamlit.app/"
     },
     {
-        "title": "Streamlit App Project 3",
-        "description": "แอปพลิเคชันวิเคราะห์ข้อมูลประมวลผลบน Streamlit",
-        "image": "img/project3.png",
+        "title": "FlatFeet (SVM Classifier Version)",
+        "description": "แอปพลิเคชันวิเคราะห์ข้อมูลและจำแนกประเภทโดยใช้ SVM Classifier ในหัวข้อโรคเท้าแบน",
+        "image": "img/project3.jpg",
         "url": "https://tvdwfxyqu48e4af2veepky.streamlit.app/"
     },
     {
-        "title": "Streamlit App Project 4",
-        "description": "แอปพลิเคชันแสดงผลข้อมูลแบบ Interactive",
-        "image": "img/project4.png",
+        "title": "K-Means Clustering App",
+        "description": "แอปพลิเคชันและวิเคราะห์ข้อมูลโดยใช้ K-Means Clustering",
+        "image": "img/project4.jpg",
         "url": "https://4u4kaz4xbjr9dfbqomvat8.streamlit.app/"
     },
     {
         "title": "Regression Model",
         "description": "โมเดลการถดถอยพยากรณ์ข้อมูลเชิงปริมาณ",
-        "image": "img/regression.png",
+        "image": "img/regression.jpg",
         "url": "https://regression-dn8txr3qernzhhnczecmsa.streamlit.app/"
     },
     {
         "title": "Random Forest Model",
         "description": "โมเดลจำแนกประเภทข้อมูลโดยใช้ Random Forest",
-        "image": "img/random_forest.png",
+        "image": "img/random_forest.jpg",
         "url": "https://randomforest-rdafgcqmqhclbqncxyjvg3.streamlit.app/"
     }
 ]
