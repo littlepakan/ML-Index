@@ -29,7 +29,6 @@ def get_image_path(filename_without_ext):
 # ==========================================
 DEV_NAME = "นายปกานต์ วงษ์ท่าเรือ"           # แก้ไข ชื่อ-นามสกุล
 DEV_ROLE = "664245056 66/44" # แก้ไข ตำแหน่ง
-
 DEV_GITHUB = "https://canva.link/3mowokqdsn7wy72" # 👈 เพิ่มลิงก์ส่วนตัวตรงนี้ (นำ URL มาใส่)
 
 profile_img_path = get_image_path("profile")
