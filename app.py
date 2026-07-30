@@ -67,35 +67,35 @@ projects = [
         "description": "การจำแนกข้อมูลและวิเคราะห์ต้นไม้ตัดสินใจ",
         "img_name": "decisiontree",
         "url": "https://decisiontree-apjtjdnsphgyalfoiimpxy.streamlit.app/",
-        "github": "#"  # 👈 นำลิงก์ GitHub มาแก้ตรงนี้
+        "github": "https://github.com/littlepakan/decisiontree/blob/main/app.py"  # 👈 นำลิงก์ GitHub มาแก้ตรงนี้
     },
     {
         "title": "FlatFoot Filter App (SVM Classifier Version)",
         "description": "แอปพลิเคชันวิเคราะห์ข้อมูลและจำแนกประเภทโดยใช้ SVM Classifier ในหัวข้อโรคเท้าแบน",
         "img_name": "svm",
         "url": "https://tvdwfxyqu48e4af2veepky.streamlit.app/",
-        "github": "#"  # 👈 นำลิงก์ GitHub มาแก้ตรงนี้
+        "github": "https://github.com/littlepakan/pesplanussvm/blob/main/app.py"  # 👈 นำลิงก์ GitHub มาแก้ตรงนี้
     },
     {
         "title": "K-Means Clustering App",
         "description": "แอปพลิเคชันแสดงผลข้อมูลแบบ Clustering โดยใช้ K-Means Algorithm",
         "img_name": "kmean",
         "url": "https://4u4kaz4xbjr9dfbqomvat8.streamlit.app/",
-        "github": "#"  # 👈 นำลิงก์ GitHub มาแก้ตรงนี้
+        "github": "https://github.com/littlepakan/kmean/blob/main/streamlit_app.py"  # 👈 นำลิงก์ GitHub มาแก้ตรงนี้
     },
     {
         "title": "Regression Model",
         "description": "โมเดลการถดถอยพยากรณ์ข้อมูลเชิงปริมาณ",
         "img_name": "regression",
         "url": "https://regression-dn8txr3qernzhhnczecmsa.streamlit.app/",
-        "github": "#"  # 👈 นำลิงก์ GitHub มาแก้ตรงนี้
+        "github": "https://github.com/littlepakan/regression/blob/main/app.py"  # 👈 นำลิงก์ GitHub มาแก้ตรงนี้
     },
     {
         "title": "Random Forest Model",
         "description": "โมเดลจำแนกประเภทข้อมูลโดยใช้ Random Forest",
         "img_name": "randomforest",
         "url": "https://randomforest-rdafgcqmqhclbqncxyjvg3.streamlit.app/",
-        "github": "#"  # 👈 นำลิงก์ GitHub มาแก้ตรงนี้
+        "github": "https://github.com/littlepakan/randomforest/blob/main/app.py"  # 👈 นำลิงก์ GitHub มาแก้ตรงนี้
     }
 ]
 
