@@ -27,8 +27,8 @@ def get_image_path(filename_without_ext):
 # ==========================================
 # 1. ส่วนข้อมูลผู้พัฒนา
 # ==========================================
-DEV_NAME = "นายสมชาย ใจดี"           # แก้ไข ชื่อ-นามสกุล
-DEV_ROLE = "นักพัฒนา Machine Learning / Data Science" # แก้ไข ตำแหน่ง
+DEV_NAME = "นายปกานต์ วงษ์ท่าเรือ"           # แก้ไข ชื่อ-นามสกุล
+DEV_ROLE = "664245056 66/44" # แก้ไข ตำแหน่ง
 
 profile_img_path = get_image_path("profile")
 
