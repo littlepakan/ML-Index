@@ -57,37 +57,37 @@ projects = [
     {
         "title": "KNN with Heart",
         "description": "โมเดลวิเคราะห์และทำนายด้วยอัลกอริทึม K-Nearest Neighbors",
-        "image": "knn",
+        "img_name": "knn",
         "url": "https://knnwithheart-otgfaanixrepowwjwrfs2q.streamlit.app/"
     },
     {
         "title": "Decision Tree App",
         "description": "การจำแนกข้อมูลและวิเคราะห์ต้นไม้ตัดสินใจ",
-        "image": "decision_tree",
+        "img_name": "decision_tree",
         "url": "https://decisiontree-apjtjdnsphgyalfoiimpxy.streamlit.app/"
     },
     {
-        "title": "FlatFeet (SVM Classifier Version)",
-        "description": "แอปพลิเคชันวิเคราะห์ข้อมูลและจำแนกประเภทโดยใช้ SVM Classifier ในหัวข้อโรคเท้าแบน",
-        "image": "project3",
+        "title": "Streamlit App Project 3",
+        "description": "แอปพลิเคชันวิเคราะห์ข้อมูลประมวลผลบน Streamlit",
+        "img_name": "project3",
         "url": "https://tvdwfxyqu48e4af2veepky.streamlit.app/"
     },
     {
-        "title": "K-Means Clustering App",
-        "description": "แอปพลิเคชันและวิเคราะห์ข้อมูลโดยใช้ K-Means Clustering",
-        "image": "project4",
+        "title": "Streamlit App Project 4",
+        "description": "แอปพลิเคชันแสดงผลข้อมูลแบบ Interactive",
+        "img_name": "project4",
         "url": "https://4u4kaz4xbjr9dfbqomvat8.streamlit.app/"
     },
     {
         "title": "Regression Model",
         "description": "โมเดลการถดถอยพยากรณ์ข้อมูลเชิงปริมาณ",
-        "image": "regression",
+        "img_name": "regression",
         "url": "https://regression-dn8txr3qernzhhnczecmsa.streamlit.app/"
     },
     {
         "title": "Random Forest Model",
         "description": "โมเดลจำแนกประเภทข้อมูลโดยใช้ Random Forest",
-        "image": "random_forest",
+        "img_name": "random_forest",
         "url": "https://randomforest-rdafgcqmqhclbqncxyjvg3.streamlit.app/"
     }
 ]
